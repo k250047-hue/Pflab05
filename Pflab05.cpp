@@ -7,11 +7,10 @@ int main(){
 	printf("enter device type \n1 for laptop\n2 for smartphone\n3 for router\n");
 	scanf("%d",&device_type);
 	printf("enter symptom code");
-    scanf("%d",code);
+    scanf("%d",&code);
 	switch(device_type){
-		case1:
-			printf("enter symptom code");
-		    scanf("%d",code);
+		case 1:
+			
 		
 		switch(code){
 		
@@ -90,4 +89,5 @@ int main(){
 	
    return 0;
 }
+
 
