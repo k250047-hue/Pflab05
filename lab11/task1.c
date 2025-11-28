@@ -117,4 +117,6 @@ int main() {
         else if (ch == 0) break;
         else printf("Invalid\n");
     }
+    return 0;
 }
+
